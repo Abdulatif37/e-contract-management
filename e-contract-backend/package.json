@@ -1,0 +1,14 @@
+{
+  "name": "e-contract-backend",
+  "version": "1.0.0",
+  "description": "Online Contract Management",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdulatif Issa Hussein",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
