@@ -98,7 +98,7 @@ db.cfg_districts.belongsTo(db.cfg_regions, {
 });
 
 //====================================================
-// USERS, PROFILES ROLES BUSINESS NAME, CATEGORIES
+// USERS, PROFILES ROLES
 //====================================================
 
 db.tblusers.hasOne(db.tbluser_profiles, {

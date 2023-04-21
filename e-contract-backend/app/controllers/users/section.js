@@ -3,7 +3,6 @@ require("dotenv").config({
 });
 const db = require("../../models");
 const capitalize = require("capitalize-the-first-letter");
-const cfg_access_level = db.cfg_access_level;
 const cfg_section = db.cfg_section;
 const tbluser_profiles = db.tbluser_profiles;
 const tblusers = db.tblusers;

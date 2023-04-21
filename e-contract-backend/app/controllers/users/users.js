@@ -11,7 +11,6 @@ const user_roles = db.tbluser_roles;
 const cfg_roles = db.cfg_roles;
 const tblusers = db.tblusers;
 const tbluser_profiles = db.tbluser_profiles;
-const tblbusiness_name = db.tblbusiness_name;
 const cfg_profiles = db.cfg_profiles;
 
 const Op = db.Sequelize.Op;
