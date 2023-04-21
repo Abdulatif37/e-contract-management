@@ -9,6 +9,19 @@
   "author": "Abdulatif Issa Hussein",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcryptjs": "^2.4.3",
+    "capitalize": "^2.0.4",
+    "capitalize-the-first-letter": "^1.0.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.9.1",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "randomstring": "^1.2.3",
+    "sequelize": "^6.31.0"
   }
 }
