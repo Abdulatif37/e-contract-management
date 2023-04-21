@@ -25,9 +25,9 @@ const sequelize = new Sequelize(
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-// =============================================================================
+// =============================================================================================================
 // DATABASE TABLE PERMISSIONS
-// =============================================================================
+// =============================================================================================================
 db.cfg_modules = require("../models/permissions/cfg_modules")(
 	sequelize,
 	Sequelize
@@ -40,6 +40,7 @@ db.cfg_sub_module_action =
 	require("../models/permissions/cfg_sub_module_action")(sequelize, Sequelize);
 db.cfg_module_permission =
 	require("../models/permissions/cfg_module_permission")(sequelize, Sequelize);
+
 db.cfg_sub_module_permission =
 	require("../models/permissions/cfg_sub_module_permission")(
 		sequelize,

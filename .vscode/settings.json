@@ -1,0 +1,4 @@
+{
+	"prettier.proseWrap": "preserve",
+	"editor.wordWrapColumn": 100
+}
